@@ -16,6 +16,7 @@ var findNumbers = function(nums) {
     let count = 0;
     // For each value(v) of numbs, turn in string, if the length is divided and at the end finished in 0 sum in the count
     for(const v of nums){
+        // Turn the values in string to measure the length
            count += String(v).length % 2 ==0
     }
     return count;
