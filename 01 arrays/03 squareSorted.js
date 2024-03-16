@@ -11,10 +11,10 @@
  */
 
 var sortedSquares = function(nums) {
-    const n = nums.length;
+    const totalNums = nums.length;
     const res = new Array(n);
     
-    for(let i = 0, j = n - 1, k = n - 1; i <= j;){
+    for(let i = 0, j = totalNums - 1, k = totalNums - 1; i <= j;){
         // If square nums was less that N - 1 square,  
         // its a negative number, make it positive and do it again
         if(nums[i] * nums[i] > nums[j] * nums[j]){
