@@ -1,13 +1,14 @@
 /**
- * @param {number[]} nums
- * @return {number}
- */
-/**
  * file: "arrays/01 binaryArray"
  * description: file responsible for identifying how many Ones in a row the binary array has
  * data: 16/03/2024
  * author: Thiago Silva Andrade
  * complexity: O(n)
+ */
+
+/**
+ * @param {number[]} nums
+ * @return {number[]}
  */
 
 const findMaxConsecutiveOnes = function(nums){

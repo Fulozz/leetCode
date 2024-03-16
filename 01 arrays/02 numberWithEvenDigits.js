@@ -1,13 +1,14 @@
 /**
- * @param {number[]} nums
- * @return {number}
- */
-/**
  * file: "arrays/02 numberWithEvenDigits"
  * description: file responsible for identifying what numbers are even numbers
  * data: 16/03/2024
  * author: Thiago Silva Andrade
  * complexity: O(n*logV) v = biggest number on the array
+ */
+
+/**
+ * @param {number[]} nums
+ * @return {number[]}
  */
 const nums = [12,345,2,6,7896]
 

@@ -1,13 +1,14 @@
 /**
- * @param {number[]} nums
- * @return {number[]}
- */
-/**
  * file: "arrays/03 squareSorted"
  * description: file responsible make numbers square, negative proteted
  * data: 16/03/2024
  * author: Thiago Silva Andrade
  * complexity: O(n*logN)
+ */
+
+/**
+ * @param {number[]} nums
+ * @return {number[]}
  */
 
 var sortedSquares = function(nums) {
