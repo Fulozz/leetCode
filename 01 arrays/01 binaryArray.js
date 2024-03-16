@@ -17,16 +17,19 @@ const findMaxConsecutiveOnes = function(nums){
         } else {
             mask =  1;
         }
-        // 
+        // If both are 1 sum with the others
         if(nums[i] && mask === 1){
             currentCount++;
             number = Math.max(number, currentCount)
-        } else {
+        }
+        // If not reset the count 
+        else {
             number = Math.max(number, currentCount);
             currentCount = 0
             mask = 0
         }
     }
+    // Sum the total values to return the Consecutive count
     number = Math.max(number, currentCount);
     return number
 }
