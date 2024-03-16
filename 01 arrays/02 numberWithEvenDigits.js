@@ -7,7 +7,7 @@
  * description: file responsible for identifying what numbers are even numbers
  * data: 16/03/2024
  * author: Thiago Silva Andrade
- * complexity: O(n*logD)
+ * complexity: O(n*logV) v = biggest number on the array
  */
 const nums = [12,345,2,6,7896]
 
