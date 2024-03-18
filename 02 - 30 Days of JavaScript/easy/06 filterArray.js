@@ -1,6 +1,6 @@
 /**
  * file: "02 - 30 Days of JavaScript/filterArray"
- * description: Create an Counter that can increment, decrement and reset the values passed by the user
+ * description: Filter the array
  * data: 18/03/2024
  * author: Thiago Silva Andrade
  */
