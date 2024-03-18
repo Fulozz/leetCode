@@ -3,7 +3,7 @@
  * description: file responsible make numbers square, negative proteted
  * data: 16/03/2024
  * author: Thiago Silva Andrade
- * complexity: O(n*logN)
+ * complexity: O(n*log(N))
  */
 
 /**
