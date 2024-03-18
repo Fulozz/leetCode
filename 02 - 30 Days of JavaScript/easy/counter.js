@@ -18,7 +18,7 @@ var createCounter = function(n) {
     };
 };
 // Set name to createCounter
-const counter = createCounter()
+export const counter = createCounter()
 
 /** 
  * const counter = createCounter(10)
