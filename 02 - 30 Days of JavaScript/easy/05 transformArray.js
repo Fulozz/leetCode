@@ -15,7 +15,7 @@
 
 // fn can be any function an can be passed in the map to render the results in array
 const fn = function plusone(n) { return n + 1; }
-
+const arr = 10;
 // Maping the datas and transform in array
 var map = function(arr, fn) {
     // Init the empty array

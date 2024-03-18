@@ -11,6 +11,10 @@
  * @param {Function} fn
  * @return {number[]}
  */
+
+const fn = function greaterThan10(n) { return n > 10; }
+const arr = [0,10,20,30]
+
 var filter = function(arr, fn) {
     // Empty Array
     let filteredArr = []

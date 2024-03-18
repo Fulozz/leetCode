@@ -9,6 +9,9 @@
  * @param {number} n
  * @return {Function} counter
  */
+
+const n = 10;
+
 var createCounter = function(n) {
     // Pre-set of the result
     let result = n

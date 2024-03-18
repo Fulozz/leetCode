@@ -10,6 +10,7 @@
  * @param {integer} init
  * @return { increment: Function, decrement: Function, reset: Function }
  */
+const init = 5;
 var createCounter = function(init) {
     let currentValue = init
     // Return an * Object Literal *
