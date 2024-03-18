@@ -11,25 +11,14 @@
  * @return { increment: Function, decrement: Function, reset: Function }
  */
 var createCounter = function(init) {
-    // Default value
     let currentValue = init
-    //ADD 1
-    const increment = () =>{
-        return currentValue += 1
-    }
-    // REDUCE 1
-    const decrement = () =>{
-        return currentValue -= 1
-    }
-    // RETURN to default value
-    const reset = () =>{
-        return currentValue = init
-    }
-    
+    // Return an * Object Literal *
+    // Procedural switch instruction substitute
+    // Use the Object Literals instead of the old switch
     return {
-        increment,
-        reset,
-        decrement
+        increment:()=> currentValue += 1,
+        decrement:()=> currentValue -= 1,
+        reset:()=> currentValue = init
     }
 };
 
@@ -39,3 +28,4 @@ var createCounter = function(init) {
  * counter.reset(); // 5
  * counter.decrement(); // 4
  */
+
