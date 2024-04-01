@@ -11,6 +11,12 @@
  * @return {number[]}
  */
 
+// Driver program
+const nums = [1,1,0,1,1,1]
+const maxOnes = findMaxConsecutiveOnes(nums);
+console.log("Maximum consecutive ones:", maxOnes);
+// Expected return is 3
+
 const findMaxConsecutiveOnes = function(nums){
     let number  = 0;
     let currentCount = 0;
@@ -39,10 +45,3 @@ const findMaxConsecutiveOnes = function(nums){
     number = Math.max(number, currentCount);
     return number
 }
-
-// Driver program
-const nums = [1,1,0,1,1,1]
-const maxOnes = findMaxConsecutiveOnes(nums);
-
-
-console.log("Maximum consecutive ones:", maxOnes);

@@ -23,7 +23,7 @@ var createCounter = function(n) {
 // Set name to createCounter
 export const counter = createCounter()
 
-/** 
+/** Expected = 
  * const counter = createCounter(10)
  * counter() // 10
  * counter() // 11

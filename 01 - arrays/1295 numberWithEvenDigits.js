@@ -11,6 +11,9 @@
  * @return {number[]}
  */
 const nums = [12,345,2,6,7896]
+const even = findNumbers(nums)
+console.log("The even numbers are",even)
+// Expected result is 4 even numbers(2,6,12,7896)
 
 var findNumbers = function(nums) {
     // const não pode ser utilizado por não ter possivel realizar alterações, precisa ser um let
@@ -23,4 +26,3 @@ var findNumbers = function(nums) {
     return count;
 };
 
-// Expected result is 3 even numbers(2,6,12,7896)
